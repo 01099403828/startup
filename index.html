@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/css2.css">
+    <title>Startup 3</title>
+</head>
+
+<body>
+    <style>    body {
+    background-image: url('../imgs/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    width: 107px;
+    height: 32px;
+    top: -6px;
+    left: 2px;
+    color: white;
+
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Products {
+    width: 69px;
+    height: 22px;
+    top: 59px;
+    left: 355px;
+    color: white;
+}
+
+.Pricing {
+    width: 52px;
+    height: 22px;
+    top: 59px;
+    left: 455px;
+    color: white;
+}
+
+.Community {
+    width: 90px;
+    height: 22px;
+    top: 59px;
+    left: 539px;
+    color: white;
+
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Help {
+    width: 35px;
+    height: 22px;
+    top: 59px;
+    left: 943px;
+    color: white;
+}
+
+.login {
+    width: 40px;
+    height: 22px;
+    top: 59px;
+    left: 1019px;
+    color: white;
+}
+
+.sign-up {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #f4f6f6;
+    border: 2px solid #eceaea;
+    border-radius: 500px;
+
+}
+
+.content-section {
+    max-width: 718px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 58px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.action-form {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 970px;
+    margin: 60px auto;
+    padding: 0 20px;
+    background: transparent;
+}
+
+.input-field {
+    padding: 12px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-size: 16px;
+    background: transparent;
+    max-width: 300px;
+}
+
+.submit-btn {
+    background-color: #E93A7D;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.submit-btn:hover {
+            background-color: #24645b;
+        }
+.divider {
+    text-align: center;
+    color: #fafafa;
+    margin: 20px 0;
+    position: relative;
+    color: white;
+
+}
+
+.social_media {
+    display: flex;
+    gap: 40px;
+    align-content: center;
+    margin-left: 272px;
+}
+
+.img{
+    padding: 7px 12px;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    background: transparent;
+    
+}
+@media (max-width: 768px) {
+            .action-form {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .input-field {
+                max-width: 100%;
+                width: 100%;
+            }
+            
+            .submit-btn {
+                width: 100%;
+            }
+        }
+</style>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Startup 3</div>
+            <div class="nav-left">
+                <buttotn class="Products"> <span>Products</span></buttotn>
+                <span class="Pricing">Pricing</span>
+                <span class="Community">Community</span>
+            </div>
+        </div>
+        <div class="nav-right">
+            <span class="Help">Help</span>
+            <span class="Login">Login</span>
+            <span class="sign-up">Sign Up</span>
+        </div>
+        </div>
+    </nav>
+    <section class="content-section">
+        <h1 class="title">The Amazing Hubble</h1>
+        <p class="description">
+            The first area of specialization in telescopes has to do with the types of telescopes people use.
+            The three designs of telescopes that most people use are the Refractor
+        </p>
+</body>
+<section class="action-form">
+    <form action="#" method="post">
+        <input class="input-field" type="text" placeholder="Your name" required>
+        <input class="input-field" type="email" placeholder="Your email" required>
+        <button type="submit" class="submit-btn">Get Started</button>
+    </form>
+
+</section>
+<div class="divider">
+    <span>OR SIGN UP WITH</span>
+</div>
+<section class="social_media">
+    <div>
+<img class="img" src="../imgs/twitter.png">
+<img class="img" src="../imgs/facebook2.png">
+<img class="img" src="../imgs/google.png">
+<img class="img"src="../imgs/git_hub.png">
+</div>
+</section>
+
+</html>
